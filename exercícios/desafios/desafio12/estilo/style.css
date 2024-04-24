@@ -27,6 +27,7 @@ pre {
     padding-left: 30px;
     font-family: var(--fonte3);
     font-size: 3.5vw;
+    border-radius: 2%;
 }
 
 html, body {
@@ -71,17 +72,32 @@ section.normal {
 section.imagem {
     background-color: rgba(0, 0, 0, 0.551);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.468);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 section.imagem > pre {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.551);
+    text-shadow: 2px 2px 0px black;
     
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+
 }
 
 footer {
