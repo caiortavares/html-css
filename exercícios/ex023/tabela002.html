@@ -30,9 +30,20 @@
             text-align: right;
         }
 
+        thead > tr > th {
+            
+            background-color: lightgrey;
+        }
+
         thead {
             background-color: rgb(78, 78, 78);
             color: white;
+            position: sticky;
+            top: -1px;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: lightgrey;
         }
 
         tfoot { 
