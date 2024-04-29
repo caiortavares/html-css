@@ -27,10 +27,25 @@
             background-color: rgba(120, 117, 114, 0.685);
             
         }
+
+        col.cdisciplina {
+            background-color: aqua;
+        }
+
+        col.cnota {
+            background-color: aquamarine;
+        }
+
     </style>
 </head>
 <body>
     <table>
+        <colgroup>
+        <col class="carea">
+        <col class="cdisciplina">
+        <col class="cnota" span="2">
+        <col class="cmedia">
+        </colgroup>
         <thead>
             <tr>
                 <th rowspan="2" scope="col">Área</th>
